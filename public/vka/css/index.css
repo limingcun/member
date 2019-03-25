@@ -1,0 +1,66 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	height: 100%;
+	font-size: 13.3333333333333vw;
+	background-color: #FFFFFF;
+}
+body{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.content{
+	flex: 1;
+}
+.background-image{
+	width: 100%;
+	background-image: url(../img/star.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 6.64rem;
+}
+.blank{
+	margin: 1px;
+	height: 1px;
+}
+.mig-content{
+	margin: 2.94rem auto 0 auto;
+	width: 3.08rem;
+}
+.mig-content .mig-text{
+	text-align: center;
+	font-size: 28px;
+	line-height: 0.6rem;
+	color: #FFF;
+}
+.warm-t{
+	width: 100%;
+	text-align: center;
+	font-size: 32px;
+	font-size: 0.32rem;
+	color: #383A3C;
+	margin-top: 42px;
+}
+.qrcode-box{
+	margin: 0.48rem auto 0 auto;
+	width: 2.8rem;
+	height: 2.8rem;
+}
+.qrcode-box .qrcode{
+	width: 100%;
+	height: 100%;
+}
+.foot{
+	text-align: center;
+	height: 0.4rem;
+	line-height: 0.4rem;
+    padding: 48px 0px;
+}
+.foot a{
+	color: #9EA3A9;
+	font-size: 28px;
+	text-decoration: none;
+}
