@@ -23,7 +23,7 @@
         "element-ui": "^2.0.3",
         "faker": "^4.1.0",
         "hideseek": "^0.8.0",
-        "jquery": "^2.2.2",
+        "jquery": "^3.5.0",
         "laravel-mix": "^1.0",
         "localforage": "^1.5.3",
         "lodash": "^4.17.4",
