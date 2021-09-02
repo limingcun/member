@@ -371,12 +371,11 @@ aws4@^1.2.1:
   version "1.6.0"
   resolved "http://registry.npm.taobao.org/aws4/download/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
 
-axios@^0.16.2:
-  version "0.16.2"
-  resolved "http://registry.npm.taobao.org/axios/download/axios-0.16.2.tgz#ba4f92f17167dfbab40983785454b9ac149c3c6d"
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
   dependencies:
-    follow-redirects "^1.2.3"
-    is-buffer "^1.1.5"
+    follow-redirects "^1.10.0"
 
 babel-code-frame@^6.11.0, babel-code-frame@^6.26.0:
   version "6.26.0"
@@ -1625,6 +1624,14 @@ cli-usage@^0.1.1:
     marked "^0.3.6"
     marked-terminal "^1.6.2"
 
+clipboard@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-1.7.1.tgz#360d6d6946e99a7a1fef395e42ba92b5e9b5a16b"
+  dependencies:
+    good-listener "^1.2.2"
+    select "^1.1.2"
+    tiny-emitter "^2.0.0"
+
 cliui@^2.1.0:
   version "2.1.0"
   resolved "http://registry.npm.taobao.org/cliui/download/cliui-2.1.0.tgz#4b475760ff80264c762c3a1719032e91c7fea0d1"
@@ -2262,6 +2269,10 @@ del@^3.0.0:
 delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/delayed-stream/download/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
+
+delegate@^3.1.2:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
 
 delegates@^1.0.0:
   version "1.0.0"
@@ -3041,11 +3052,9 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.1"
     readable-stream "^2.0.4"
 
-follow-redirects@^1.2.3:
-  version "1.2.6"
-  resolved "http://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.2.6.tgz#4dcdc7e4ab3dd6765a97ff89c3b4c258117c79bf"
-  dependencies:
-    debug "^3.1.0"
+follow-redirects@^1.10.0:
+  version "1.14.2"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.2.tgz#cecb825047c00f5e66b142f90fed4f515dec789b"
 
 font-awesome@^4.7.0:
   version "4.7.0"
@@ -3336,6 +3345,12 @@ glogg@^1.0.0:
   resolved "http://registry.npm.taobao.org/glogg/download/glogg-1.0.0.tgz#7fe0f199f57ac906cf512feead8f90ee4a284fc5"
   dependencies:
     sparkles "^1.0.0"
+
+good-listener@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
+  dependencies:
+    delegate "^3.1.2"
 
 got@^5.0.0:
   version "5.7.1"
@@ -4935,6 +4950,10 @@ moment@^2.18.1, moment@^2.9.0:
   version "2.19.2"
   resolved "http://registry.npm.taobao.org/moment/download/moment-2.19.2.tgz#8a7f774c95a64550b4c7ebd496683908f9419dbe"
 
+moment@^2.20.1:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+
 morris.js@^0.5.0:
   version "0.5.0"
   resolved "http://registry.npm.taobao.org/morris.js/download/morris.js-0.5.0.tgz#725767135cfae059aae75999bb2ce6a1c5d1b44b"
@@ -5377,6 +5396,10 @@ p-map@^1.1.1:
 p-pipe@^1.1.0:
   version "1.2.0"
   resolved "http://registry.npm.taobao.org/p-pipe/download/p-pipe-1.2.0.tgz#4b1a11399a11520a67790ee5a0c1d5881d6befe9"
+
+pace-js@^1.0.2:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/pace-js/-/pace-js-1.2.4.tgz#699aa54c76411ec0297ac06a8cddb6e11e01db99"
 
 pace@0.0.4:
   version "0.0.4"
@@ -6466,6 +6489,10 @@ select2@^4.0.3:
     almond "~0.3.1"
     jquery-mousewheel "~3.1.13"
 
+select@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
+
 selfsigned@^1.9.1:
   version "1.10.1"
   resolved "http://registry.npm.taobao.org/selfsigned/download/selfsigned-1.10.1.tgz#bf8cb7b83256c4551e31347c6311778db99eec52"
@@ -7216,6 +7243,10 @@ timers-browserify@^2.0.4:
   resolved "http://registry.npm.taobao.org/timers-browserify/download/timers-browserify-2.0.4.tgz#96ca53f4b794a5e7c0e1bd7cc88a372298fa01e6"
   dependencies:
     setimmediate "^1.0.4"
+
+tiny-emitter@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
 
 to-absolute-glob@^0.1.1:
   version "0.1.1"
